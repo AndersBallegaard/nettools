@@ -22,6 +22,7 @@ If you need it on a custom network you can ofcouse do that
 * tcpdump
 * iperf3
 * dns-utils (nslookup, dig, etc..)
+* git
 * telnet
 * netmiko
 * requests

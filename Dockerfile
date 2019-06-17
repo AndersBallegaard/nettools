@@ -13,6 +13,7 @@ RUN apt-get install nmap -y
 RUN apt-get install tcpdump -y
 RUN apt-get install iperf3 -y
 RUN apt-get install dnsutils -y
+RUN apt-get install git -y
 RUN apt-get install telnet -y
 
 RUN pip3 install -r config/requirements.txt
