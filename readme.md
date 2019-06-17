@@ -21,6 +21,8 @@ If you need it on a custom network you can ofcouse do that
 * nmap
 * tcpdump
 * iperf3
+* dns-utils (nslookup, dig, etc..)
+* telnet
 * netmiko
 * requests
 * ncclient
