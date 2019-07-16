@@ -20,3 +20,7 @@ RUN apt-get install tmux -y
 
 RUN pip3 install -r config/requirements.txt
 RUN pip install -r config/requirements-py2.txt
+
+RUN echo "root:admin" | chpasswd
+
+ENTRYPOINT [ "butterfly.server.py", "--port=8081", "--unsecure", "--host=0.0.0.0" ]

@@ -34,12 +34,11 @@ If you need it on a custom network you can ofcouse do that
 If you want more tools create an issue or a pull request
 
 ## How to start web terminal
-Start nettools container with a port exposed
+Start nettools container with a port exposed.
+The webserver is the default entrypoint, and will run on port 8081
 ```bash
 docker run -it -p 8081:8081 andersballegaard/nettools
 ```
 
-Start butterfly
-```bash
-butterfly.server.py --port=8081 --unsecure --host=0.0.0.0
-```
+Connect to the server in a browser, the default password is 'admin'
+
