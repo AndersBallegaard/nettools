@@ -23,4 +23,3 @@ RUN pip install -r config/requirements-py2.txt
 
 RUN echo "root:admin" | chpasswd
 
-ENTRYPOINT [ "butterfly.server.py", "--port=8081", "--unsecure", "--host=0.0.0.0" ]
